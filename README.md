@@ -6,6 +6,33 @@ MyBot is a Discord bot that provides various "subservices" involving music, serv
 MyBot's command prefix is `*`. If a command requires more than one parameter, make sure to enclose your parameters in double quotes (`""`). 
 
 ## Music
+__*playtube:__ Joins the command author's VC (if they are in one) and plays the requested audio from Youtube. 
+
+Parameters:
+1. query: Search terms for a Youtube video
+2. loopChoice: Loop mode (loopOn: plays audio until stopped, loopOff: plays audio only once)
+
+EX: *playtube "batman theme song" loopOn
+
+__*pause:__
+
+__*resume:__
+
+__*stop__:
+
+__*dc__:
+
+__*add__:
+
+__*delete__:
+
+__*playlist__:
+
+__*singleplay__:
+
+__*shuffleplay__:
+
+__*listplay__:
 
 ## RPG
 
