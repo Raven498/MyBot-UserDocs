@@ -1,4 +1,3 @@
-# MyBot User Docs
 This website is intended to help end users understand the various services and commands MyBot provides. If you are a developer attempting to access MyBot technical docs, you can find them here:
 
 ## Introduction
