@@ -14,25 +14,51 @@ Parameters:
 
 EX: *playtube "batman theme song" loopOn
 
-__*pause:__
+__*pause:__ Pauses any audio currently playing.
+EX: *pause
 
-__*resume:__
+__*resume:__ Resumes any audio currently paused.
+EX: *resume
 
-__*stop__:
+__*stop__: Stops playing any audio currently playing and leaves the loop if it is in one.
+EX: *stop
 
-__*dc__:
+__*dc__: Disconnects from the voice channel it is currently in
+EX: *dc
 
-__*add__:
+__*add__: Adds song title to the user's playlist
 
-__*delete__:
+Parameters:
+1. song: Title of the song that needs to be added
 
-__*playlist__:
+EX: *add "batman theme song"
 
-__*singleplay__:
+__*delete__: Deletes a song title from the user's playlist if it exists
 
-__*shuffleplay__:
+Parameters:
+1. song: Title of the song that needs to be deleted
 
-__*listplay__:
+EX: *delete "batman theme song"
+
+__*playlist__: Prints all songs in the user's playlist
+EX: *playlist
+
+__*singleplay__: Plays one requested song from the user's playlist
+Parameters:
+1. song: Title of the song to be played
+2. loopMode: User's loop choice (same as the `loopChoice` parameter for `playtube`)
+
+EX: *singleplay "batman theme song" loopOn
+
+__*shuffleplay__: Plays random songs from the user's playlist (shuffle mode)
+EX: *shuffleplay
+
+__*listplay__: Plays all songs in the playlist in order (list mode)
+
+Parameters:
+1. loopMode: User's loop choice (same as the `loopChoice` parameter for `playtube`)
+
+EX: *listplay loopOn
 
 ## RPG
 
