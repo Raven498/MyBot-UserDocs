@@ -15,15 +15,19 @@ Parameters:
 EX: *playtube "batman theme song" loopOn
 
 __*pause:__ Pauses any audio currently playing.
+
 EX: *pause
 
 __*resume:__ Resumes any audio currently paused.
+
 EX: *resume
 
 __*stop__: Stops playing any audio currently playing and leaves the loop if it is in one.
+
 EX: *stop
 
 __*dc__: Disconnects from the voice channel it is currently in
+
 EX: *dc
 
 __*add__: Adds song title to the user's playlist
