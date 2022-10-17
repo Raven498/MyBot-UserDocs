@@ -65,6 +65,32 @@ Parameters:
 EX: *listplay loopOn
 
 ## RPG
+__*work:__ Adds a random amount of money between 0 and 5000 to the author's balance.
+
+__*checkbal:__ Displays the balance for a specified user.
+
+Parameters:
+1. member: Username for the requested member. If you want to check your own balance, use the word "me".
+
+__*serverbal:__ Displays balances for all members of the server.
+
+__*checkshop:__ Displays available shop items and their stats and costs.
+
+__*buy:__ Buys an item from the shop.
+
+Parameters:
+1. item: The name of the item as displayed in the shop.
+
+__*checkarmy:__ Displays the author's army info.
+
+__*fight:__ Conducts a fight between two members.
+
+Parameters:
+1. name: Username of the opponent
+
+__*wordle:__ Start a wordle game
+
+__*helpme:__ Sends a link to MyBot's UserDocs and TechDocs.
 
 ## Memes
 
@@ -73,3 +99,11 @@ EX: *listplay loopOn
 ## ChatBot
 
 ## Calculator
+
+## RPG Admin
+__*delete:__ Deletes a member's data from MyBot's RPG database
+
+Parameters:
+1. name: Username of the member
+
+__*init:__ Initializes the database's records. This should happen automatically when the bot has been added to a server - use this command if RPG commands aren't working.
